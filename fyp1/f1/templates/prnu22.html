@@ -1,0 +1,109 @@
+<!-- {% load static %} -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>FYP Group 21</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
+  <!-- <meta property="og:title" content="">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:description" content=""> -->
+
+  <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+  <!-- <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="">
+ -->
+  <!-- Favicon -->
+ <!--  <link href="img/favicon.ico" rel="icon"> -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700|Roboto:400,900" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <!-- <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+  <!-- Libraries CSS Files -->
+  <!-- <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
+
+  <!-- Main Stylesheet File -->
+  <link rel="stylesheet" type='text/css' href="{% static 'css/style.css' %}">
+
+
+</head>
+
+<body>
+
+  <section class="hero">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 class="section-title">PRNU Fingerprint of Query Video Has Been Computed!</h2>
+        </div>
+      </div>
+      <form method="post" enctype="multipart/form-data" action="prnu222">
+        {% csrf_token %}
+
+    <button type="submit">Calculate Correlation!</button>
+    </form>
+     </div>
+
+  </section>
+
+  <footer class="site-footer">
+    <div class="bottom">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-xs-12 text-lg-left text-center">
+            <p class="copyright-text">
+              © Group21
+            </p>
+
+            <div class="credits">
+             Designed by Madhavi, Vipul & Shreya.</a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </footer>
+  <a class="scrolltop" href="#"><span class="fa fa-angle-up"></span></a>
+
+
+  <!-- Required JavaScript Libraries -->
+ <!--  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/tether/js/tether.min.js"></script>
+  <script src="lib/stellar/stellar.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/easing/easing.js"></script>
+  <script src="lib/stickyjs/sticky.js"></script>
+  <script src="lib/parallax/parallax.js"></script>
+  <script src="lib/lockfixed/lockfixed.min.js"></script> -->
+
+  <!-- Template Specisifc Custom Javascript File -->
+  <!-- <script src="js/custom.js"></script>
+
+  <script src="contactform/contactform.js"></script> -->
+
+</body>
+</html>
